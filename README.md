@@ -5,7 +5,7 @@ Hi, I'm Tariq. <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHei
 </H3>
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Playpen+Sans&size=24&letterSpacing=0px&pause=400&center=true&vCenter=true&width=1000&height=70&lines=Welcome+To+My+Profile;I'm+a+Software+Engineering+graduate+from+ALX+program+powered+by+Holberton+School;Specializing+in+backend+development%2C+with+a+keen+interest+in+web+development+and+AI.;+I+thrive+on+challenges+and+love+to+explore+the+cutting+edge+of+technology)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Playpen+Sans&size=24&letterSpacing=0px&pause=800&center=true&vCenter=true&width=1000&height=70&lines=Welcome+To+My+Profile;I'm+a+Software+Engineering+graduate+from+ALX+program+powered+by+Holberton+School;Specializing+in+backend+development%2C+with+a+keen+interest+in+web+development+and+AI.;+I+thrive+on+challenges+and+love+to+explore+the+cutting+edge+of+technology)](https://git.io/typing-svg)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
