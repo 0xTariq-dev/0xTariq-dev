@@ -56,3 +56,5 @@ Feel free to explore my repositories and let's collaborate on projects that make
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<h2 align="left">Support:</h2>
+<p><a href="https://www.buymeacoffee.com/0xTariq"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" height="50" width="210" alt="support me" /></a></p><br><br><br>
