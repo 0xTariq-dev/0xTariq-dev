@@ -68,7 +68,7 @@ Open To: Backend, Platform, API Engineering, Remote/Hybrid.
 ---
 
 ### Trophies
-![](https://github-profile-trophy.vercel.app/?username=0xtariq-dev&theme=tokyonight&column=4&margin-w=12&no-frame=true&no-bg=true)
+![](./profile/trophies.svg)
 
 ---
 

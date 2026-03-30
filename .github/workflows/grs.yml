@@ -5,6 +5,9 @@ on:
     - cron: "0 3 * * *"
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,7 +15,10 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+
+      - name: Ensure profile directory exists
+        run: mkdir -p profile
 
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
@@ -45,6 +51,10 @@ jobs:
           options: username=${{ github.repository_owner }}&layout=compact&size_weight=0.5&count_weight=0.5&langs_count=8&theme=nightowl
           path: profile/top-langs-legacy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate trophies card
+        run: |
+          curl -fsSL "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=tokyonight&column=4&margin-w=12&no-frame=true&no-bg=true" -o profile/trophies.svg
 
       - name: Commit cards
         run: |
