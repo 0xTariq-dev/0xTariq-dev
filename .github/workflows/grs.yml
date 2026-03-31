@@ -52,9 +52,18 @@ jobs:
           path: profile/top-langs-legacy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
       - name: Generate trophies card
+        env:
+          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -fsSL "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=tokyonight&column=4&margin-w=12&no-frame=true&no-bg=true" -o profile/trophies.svg
+          git clone --depth=1 https://github.com/ryo-ma/github-profile-trophy.git .tmp-github-profile-trophy
+          cd .tmp-github-profile-trophy
+          deno run --allow-net --allow-env --allow-read --allow-write ./render_svg.ts "${{ github.repository_owner }}" "../profile/trophies.svg" tokyonight
 
       - name: Commit cards
         run: |
